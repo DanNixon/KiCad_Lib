@@ -1,3 +1,3 @@
 # KiCad libraries
 
-A meta collection of frequently used KiCad libraries.
+A collection of random parts I sometimes use in KiCad.

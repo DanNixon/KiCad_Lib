@@ -1,9 +1,0 @@
-[submodule "kicad-ESP8266"]
-	path = kicad-ESP8266
-	url = https://github.com/jdunmire/kicad-ESP8266.git
-[submodule "teensy_library"]
-	path = teensy_library
-	url = https://github.com/XenGi/teensy_library.git
-[submodule "teensy.pretty"]
-	path = teensy.pretty
-	url = https://github.com/XenGi/teensy.pretty.git

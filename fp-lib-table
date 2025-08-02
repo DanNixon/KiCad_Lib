@@ -3,4 +3,5 @@
   (lib (name "Modules")(type "KiCad")(uri "${KIPRJMOD}/libraries/Modules/Modules.pretty")(options "")(descr ""))
   (lib (name "Displays")(type "KiCad")(uri "${KIPRJMOD}/libraries/Displays/Displays.pretty")(options "")(descr ""))
   (lib (name "Connectors")(type "KiCad")(uri "${KIPRJMOD}/libraries/Connectors/Connectors.pretty")(options "")(descr ""))
+  (lib (name "Input")(type "KiCad")(uri "${KIPRJMOD}/libraries/Input/Input.pretty")(options "")(descr ""))
 )

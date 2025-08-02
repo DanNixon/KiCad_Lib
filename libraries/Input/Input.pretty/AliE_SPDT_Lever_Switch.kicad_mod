@@ -1,0 +1,111 @@
+(footprint "AliE_SPDT_Lever_Switch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.5 7.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1603f3f0-0816-45dd-a77a-aefde0119e0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SPDT"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ad5b3047-3a2e-4acc-ae22-a85ebd520173")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.aliexpress.com/item/1005008166170577.html"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdc3c4c5-de58-4db3-b562-1a6c0796f741")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b312f871-b96b-4fa2-a710-c7d368d79f20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.35 -6.4)
+		(end 3.35 6.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "af64c9d4-33b2-42a2-a7fb-bf902c27896a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "34bc893c-91e9-45a2-b342-5932bc77ef9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -4.7)
+		(size 3.2 2)
+		(drill oval 2.2 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "03ec5327-92c6-4616-a560-007d7f585ba1")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 0)
+		(size 3.2 2)
+		(drill oval 2.2 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "ca3c4765-dad1-4402-a8bc-500048873605")
+	)
+	(pad "3" thru_hole roundrect
+		(at 0 4.7)
+		(size 3.2 2)
+		(drill oval 2.2 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "223e059e-96b5-4b6e-ad68-acac262dc788")
+	)
+	(embedded_fonts no)
+)
